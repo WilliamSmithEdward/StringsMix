@@ -25,8 +25,6 @@ namespace StringsMix
             var group1 = s1.Where(x => char.IsLower(x)).GroupBy(x => x);
             var group2 = s2.Where(x => char.IsLower(x)).GroupBy(x => x);
 
-            Console.WriteLine("hello world");
-
             var stringMixList = new List<StringMix>();
 
             foreach (var group in group1)
